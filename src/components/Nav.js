@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs';
+import { BsClipboardData, BsBriefcase, BsChatSquare, BsSquare, BsChatSquareText } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Nav = () => {
@@ -14,27 +14,39 @@ const Nav = () => {
         >
           <Link
             to='home'
-            className='cursor-pointer w-[50px] h-[60px] flex items-center 
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[60px] h-[60px] flex items-center 
               justify-center'
           >
             <BiHomeAlt />
           </Link>
           <Link
             to='about'
-            className='cursor-pointer w-[50px] h-[60px] flex items-center 
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[60px] h-[60px] flex items-center 
               justify-center'
           >
             <BiUser />
           </Link>
           <Link
             to='services'
-            className='cursor-pointer w-[50px] h-[60px] flex items-center 
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[60px] h-[60px] flex items-center 
               justify-center'
           >
             <BsClipboardData />
           </Link>
           <Link
             to='work'
+            activeClass='active'
+            smooth={true}
+            spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center 
               justify-center'
           >
@@ -42,10 +54,13 @@ const Nav = () => {
           </Link>
           <Link
             to='contact'
+            activeClass='active'
+            smooth={true}
+            spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center 
               justify-center'
           >
-            <BsBriefcase />
+            <BsChatSquareText />
           </Link>
         </div>
       </div>
