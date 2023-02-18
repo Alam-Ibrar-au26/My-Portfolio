@@ -33,7 +33,7 @@ const About = () => {
               my some own projects with Front-end & Back-end.
             </h3>
             <p className='mb-6'>
-              With this I'm professional DOP(Director Of Photography). I worked
+              With this I'm professional Cinematographer. I worked
               on video projects as DOP. also I'm traveler photographer and I
               like traveling.
             </p>
@@ -44,7 +44,8 @@ const About = () => {
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br />
-                  Experience
+                  Photography <br />
+                  Experience 
                 </div>
               </div>
               <div>
